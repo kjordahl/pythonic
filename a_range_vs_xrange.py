@@ -5,7 +5,7 @@ def using_range():
 
 def using_xrange():
     a = 0
-    for i in range(100):
+    for i in xrange(100):
         a += i
 
 if __name__ == '__main__':
