@@ -1,11 +1,11 @@
-def using_range():
+def using_range(N=100):
     a = 0
-    for i in range(100):
+    for i in range(N):
         a += i
 
-def using_xrange():
+def using_xrange(N=100):
     a = 0
-    for i in xrange(100):
+    for i in xrange(N):
         a += i
 
 if __name__ == '__main__':
